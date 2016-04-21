@@ -25,6 +25,20 @@ const config = makeWebpackConfig({
         </head>
         <body><div id="root"></div></body>
         <script src="/${context.main}"></script>
+        <script src="https://js.pusher.com/3.0/pusher.min.js"></script>
+        <script>
+          var pusher = new Pusher('087e104eb546157304a9', {cluster:'eu'})
+          var button = pusher.subscribe('button-22')
+
+          button.bind('press', function(data) {
+            console.log('Someone pressed Bens buttons');
+            document.querySelector('.ImageCapture__button').click();
+            setTimeout(function() {
+              document.querySelector('[src="/93231eaeae9f01765f8bdb0500fce794.png"]').click();
+            }, 3000);
+          });
+
+        </script>
       `
     };
   }

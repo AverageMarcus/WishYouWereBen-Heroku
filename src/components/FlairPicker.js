@@ -24,7 +24,7 @@ export default React.createClass({
             className='FlairPicker__flair'
             draggable
             onDragStart={(e) => this.handleDragStart(e, src)}
-            onClick={() => this.props.onAddOverlay({ src, left: 10, top: 10 })}
+            onClick={() => this.props.onAddOverlay({ src, left: 100, top: 20 })}
           />
         ))}
         <div className='FlairPicker__license'>
