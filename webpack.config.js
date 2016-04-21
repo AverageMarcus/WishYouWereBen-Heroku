@@ -28,7 +28,7 @@ const config = makeWebpackConfig({
         <script src="https://js.pusher.com/3.0/pusher.min.js"></script>
         <script>
           var pusher = new Pusher('087e104eb546157304a9', {cluster:'eu'})
-          var button = pusher.subscribe('button-22')
+          var button = pusher.subscribe('button')
 
           button.bind('press', function(data) {
             console.log('Someone pressed Bens buttons');
