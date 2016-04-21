@@ -3,6 +3,8 @@ export const fixed = [
 ];
 
 export const basic = [
+  { src: require('./images/flair/jsox.png') },
+  { src: require('./images/flair/jsox2.png') },
   { src: require('./images/flair/flair-wywh.png') },
   { src: require('./images/flair/flair-greetings.png') },
   { src: require('./images/flair/flair-from.png') },
