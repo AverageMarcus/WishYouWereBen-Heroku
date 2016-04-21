@@ -35,7 +35,7 @@ const config = makeWebpackConfig({
             document.querySelector('.ImageCapture__button').click();
             setTimeout(function() {
               document.querySelector('[src="/93231eaeae9f01765f8bdb0500fce794.png"]').click();
-            }, 3000);
+            }, 1000);
           });
 
         </script>
