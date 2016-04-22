@@ -7,7 +7,9 @@ export const basic = [
   { src: require('./images/flair/ben2.png') },
   { src: require('./images/flair/ben3.png') },
   { src: require('./images/flair/ben4.png') },
-  { src: require('./images/flair/ben5.png') }
+  { src: require('./images/flair/ben5.png') },
+  { src: require('./images/flair/ben6.png') },
+  { src: require('./images/flair/ben7.png') }
 ];
 
 export const intermediate = [

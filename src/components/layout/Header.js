@@ -17,7 +17,7 @@ export default React.createClass({
       <header className='Header'>
         <div className='Header__subheader'>
           <span>
-            #WYWH
+            <span className="strike">#WYWH</span> #WishYouWereBen?
           </span>
           {conferenceName &&
             <span className='Header__subheader__conference'>
