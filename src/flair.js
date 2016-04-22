@@ -3,39 +3,11 @@ export const fixed = [
 ];
 
 export const basic = [
-  { src: require('./images/flair/jsox.png') },
-  { src: require('./images/flair/jsox2.png') },
   { src: require('./images/flair/ben.png') },
-  { src: require('./images/flair/flair-wywh.png') },
-  { src: require('./images/flair/flair-greetings.png') },
-  { src: require('./images/flair/flair-from.png') },
-  { src: require('./images/flair/flair-render.png') },
-  { src: require('./images/flair/flair-heroku-purple.png') },
-  { src: require('./images/flair/flair-heroku-white.png') },
-  { src: require('./images/flair/flair-dyno.png') },
-  { src: require('./images/flair/flair-hello.png') },
-
-  { name: 'robot', src: require('./images/emoji/1f916.png') },
-  { name: 'wave', src: require('./images/emoji/1f44b.png') },
-  { name: 'dark_sunglasses', src: require('./images/emoji/1f576.png') },
-  { name: 'crown', src: require('./images/emoji/1f451.png') },
-  { name: 'sparkles', src: require('./images/emoji/2728.png') },
-  { name: 'fire', src: require('./images/emoji/1f525.png') },
-  { name: 'unicorn', src: require('./images/emoji/1f984.png') },
-  { name: 'cloud', src: require('./images/emoji/2601.png') },
-  { name: 'cookie', src: require('./images/emoji/1f36a.png') },
-  { name: 'coffee', src: require('./images/emoji/2615.png') },
-  { name: 'soccer', src: require('./images/emoji/26bd.png') },
-  { name: 'art', src: require('./images/emoji/1f3a8.png') },
-  { name: 'saxophone', src: require('./images/emoji/1f3b7.png') },
-  { name: 'rocket', src: require('./images/emoji/1f680.png') },
-  { name: 'bulb', src: require('./images/emoji/1f4a1.png') },
-  { name: 'tada', src: require('./images/emoji/1f389.png') },
-  { name: 'european_castle', src: require('./images/emoji/1f3f0.png') },
-  { name: 'umbrella', src: require('./images/emoji/2614.png') },
-  { name: 'two_hearts', src: require('./images/emoji/1f495.png') },
-  { name: 'flag_gb', src: require('./images/emoji/1f1ec-1f1e7.png') }
-
+  { src: require('./images/flair/ben2.png') },
+  { src: require('./images/flair/ben3.png') },
+  { src: require('./images/flair/ben4.png') },
+  { src: require('./images/flair/ben5.png') }
 ];
 
 export const intermediate = [
